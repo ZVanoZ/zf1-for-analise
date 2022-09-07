@@ -2,7 +2,7 @@
   "name": "zvanoz/zf1-for-analise",
   "description": "Загружаем либу Zend Framework 1 для анализа в отдельном окне",
   "type": "project",
-  "license": "@TODO: DIO License",
+  "license": "Apache Apache-2.0",
   "keywords": [
     "zvanoz",
     "zf1",
