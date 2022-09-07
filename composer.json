@@ -1,0 +1,40 @@
+{
+  "name": "zvanoz/zf1-for-analise",
+  "description": "Загружаем либу Zend Framework 1 для анализа в отдельном окне",
+  "type": "project",
+  "license": "@TODO: DIO License",
+  "keywords": [
+    "zvanoz",
+    "zf1",
+    "zend framework 1"
+  ],
+  "minimum-stability": "rc",
+  "config" : {
+    "secure-http": false,
+    "allow-plugins": true,
+    "platform": {
+      "php":"5.3"
+    }
+  },
+  "require": {
+    "zendframework/zendframework1" : "^1",
+    "pedro151/zendx" : "*"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+    }
+  },
+  "scripts": {
+    "composer-install" : "composer update -v --ignore-platform-req=ext-*",
+    "composer-update" : "composer update -v --ignore-platform-req=ext-*",
+    "composer-fund" : "composer fund"
+  },
+  "scripts-descriptions": {
+  }
+}

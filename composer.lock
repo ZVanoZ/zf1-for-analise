@@ -1,0 +1,123 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "22fbff07d18626a62701aa89fd99f9cd",
+    "packages": [
+        {
+            "name": "pedro151/zendx",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pedro151/ZendX.git",
+                "reference": "54d2592709062e51a68d154e2beb5e6203b2b2b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pedro151/ZendX/zipball/54d2592709062e51a68d154e2beb5e6203b2b2b4",
+                "reference": "54d2592709062e51a68d154e2beb5e6203b2b2b4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "zendframework/zendframework1": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ZendX_": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "library/"
+            ],
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "pedro151",
+                    "email": "phacl@hotmail.com"
+                }
+            ],
+            "description": "ZendX",
+            "keywords": [
+                "ZF1",
+                "ZendX",
+                "zend"
+            ],
+            "support": {
+                "issues": "https://github.com/pedro151/ZendX/issues",
+                "source": "https://github.com/pedro151/ZendX/tree/v1.0"
+            },
+            "time": "2016-05-14T03:49:32+00:00"
+        },
+        {
+            "name": "zendframework/zendframework1",
+            "version": "1.12.20",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/zf1.git",
+                "reference": "737ef159654fbbef37cf9af742b2c8f9690c2ece"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/zf1/zipball/737ef159654fbbef37cf9af742b2c8f9690c2ece",
+                "reference": "737ef159654fbbef37cf9af742b2c8f9690c2ece",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.11"
+            },
+            "require-dev": {
+                "phpunit/dbunit": "1.3.*",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.12.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Zend_": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "library/"
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Zend Framework 1",
+            "homepage": "http://framework.zend.com/",
+            "keywords": [
+                "ZF1",
+                "framework"
+            ],
+            "support": {
+                "issues": "https://github.com/zendframework/zf1/issues",
+                "source": "https://github.com/zendframework/zf1/tree/release-1.12.20"
+            },
+            "abandoned": "zendframework/zendframework",
+            "time": "2016-09-08T14:50:34+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "RC",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "platform-overrides": {
+        "php": "5.3"
+    },
+    "plugin-api-version": "2.3.0"
+}
